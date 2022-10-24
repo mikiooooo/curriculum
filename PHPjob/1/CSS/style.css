@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+header {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+nav {
+    width: 160px;
+    height: 60px;
+    background-color: #fff;
+	text-align: right;
+}
+
+ul {
+	overflow: hidden;
+	text-align: center;
+	padding-left: 0px;
+	display: flex;
+}
+
+li {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 10px;
+}
