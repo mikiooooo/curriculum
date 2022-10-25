@@ -1,0 +1,82 @@
+/* タブレット用 */
+@media screen and (max-width: 767px) {
+ 
+    .header {
+        width: 300px;
+    }
+    
+    .left {
+        width: 100px;
+    }
+
+    .right {
+        width: 200px;
+    }
+    
+    .one {
+        width: 125px;
+    }
+    
+    .two {
+        width: 75px;
+    }
+    
+    .three {
+        width: 125px;
+    }
+    
+    .four {
+        width: 200px;
+    }
+
+    .footer {
+        width: 300px;
+    }
+}
+
+/* スマホ用 */
+@media screen and (max-width: 479px) {
+    
+    .contents {
+        float: none;
+        width: 150px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 150px;
+        height: 100px;
+    }
+
+    .left {
+        width: 150px;
+        height: 100px;
+    }
+
+    .right {
+        width: 150px;
+        height: auto;
+    }
+
+    .one {
+        width: 150px;
+    }
+
+    .two {
+        width: 150px;
+        height: 100px;
+    }
+
+    .three {
+        width: 150px;
+    }
+
+    .four {
+        width: 150px;
+    }
+
+    .footer {
+        width: 150px;
+    }
+}
