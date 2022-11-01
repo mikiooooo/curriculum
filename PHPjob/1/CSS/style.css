@@ -6,27 +6,27 @@ body {
     width: 400px;
     height: auto;
     text-align: center;
-    background-color: aquamarine;
 }
 
+
+
+/* ヘッダー用 */
 header {
     width: 400px;
     height: 100px;
     background-color: #141f40;
 }
 
-nav {
+ul {
     width: 160px;
     height: 60px;
     background-color: #fff;
-	text-align: right;
-}
-
-ul {
-	overflow: hidden;
-	text-align: center;
-	padding-left: 0px;
-	display: flex;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-left: 220px;
+    top: 20px;
 }
 
 li {
@@ -36,4 +36,53 @@ li {
 	list-style: none;
 	margin-left: 10px;
 	margin-top: 10px;
+}
+
+
+
+/* コンテンツ用 */
+
+#main {
+    width: 400px;
+    display: flex;
+}
+
+#left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+
+#right {
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+}
+
+#conteiner {
+    width: 150px;
+    height: 170px;
+    margin: 40px 60px 40px 40px;
+}
+
+.contents {
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-top: 10px;
+}
+
+.contents:first-child {
+    margin-top: 0px;
+}
+
+
+
+/* フッター用 */
+
+footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
 }

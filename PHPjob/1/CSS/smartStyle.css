@@ -1,0 +1,57 @@
+@media screen and (max-width: 479px) {
+    
+    body {
+        width: 200px;
+        height: auto;
+    }
+
+
+
+    /* ヘッダー用 */
+
+    header {
+        width: 200px;
+        height: 200px;
+    }
+
+    ul {
+        width: 60PX;
+        height: 160px;
+        display: block;
+        margin: 20px 70px;
+    }
+
+
+
+    /* コンテンツ用 */
+
+    main {
+        width: 200px;
+        height: auto;
+        display: block;
+    }
+
+    #left {
+        width: 200px;
+        height: 100px;
+    }
+
+    #right {
+        width: 200px;
+        height: 210px;
+        margin: 0px;
+    }
+
+    #conteiner {
+        margin: 20px 30px;
+    }
+
+
+
+    /* コンテンツ用 */
+
+    footer {
+        width: 200px;
+        height: 100px;
+    }
+}
